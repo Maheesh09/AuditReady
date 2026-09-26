@@ -1,0 +1,57 @@
+[project]
+name = "auditready-backend"
+version = "0.1.0"
+description = "AuditReady API: buyer compliance evidence for Sri Lankan apparel exporters"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.8",
+    "pydantic-settings>=2.4",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "pytest>=8.3",
+    "pytest-cov>=5.0",
+    "httpx>=0.27",
+    "pip-audit>=2.7",
+]
+
+[tool.uv]
+# This is an application, not a library: no build step, no editable install.
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    "E", "W", "F",   # pycodestyle + pyflakes
+    "I",             # import sorting
+    "B",             # bugbear
+    "UP",            # pyupgrade
+    "N",             # naming (snake_case rule, Section 4.4)
+    "SIM",           # simplifications
+    "S",             # bandit security checks
+    "E722",          # no bare except (Section 4.4)
+    "T20",           # no print() left in code (Definition of Done)
+    "ASYNC",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101"]   # assert is fine in tests
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+plugins = ["pydantic.mypy"]
+files = ["app", "tests"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
