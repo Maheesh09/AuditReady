@@ -1,0 +1,49 @@
+name: Backend CI
+
+# No path filters on purpose: this is a required status check, and a filtered-out
+# required check never reports, which would block frontend-only PRs forever.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: backend-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    name: backend (lint, types, tests, audit)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          cache-dependency-glob: backend/uv.lock
+
+      - name: Install dependencies (fails if uv.lock is out of date)
+        run: uv sync --locked
+
+      - name: Format check (ruff)
+        run: uv run ruff format --check .
+
+      - name: Lint (ruff)
+        run: uv run ruff check --output-format=github .
+
+      - name: Type check (mypy strict)
+        run: uv run mypy
+
+      - name: Tests (pytest)
+        run: uv run pytest --cov=app --cov-report=term-missing
+
+      - name: Dependency audit (pip-audit)
+        run: uv run pip-audit --skip-editable
