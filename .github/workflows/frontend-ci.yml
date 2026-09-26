@@ -2,8 +2,8 @@ name: Frontend CI
 
 # No path filters on purpose (see backend-ci.yml).
 on:
-  pull_request:
   push:
+  pull_request:
     branches: [main]
 
 permissions:
