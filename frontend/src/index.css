@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+/*
+ * Design tokens. Tier colours are used everywhere and ALWAYS paired with a text label,
+ * never colour alone (Section 13.3). Contrast of text on these backgrounds is >= 4.5:1.
+ */
+@theme {
+  --color-tier-high: #1f7a45;
+  --color-tier-high-bg: #e3f4ea;
+  --color-tier-medium: #8a5a00;
+  --color-tier-medium-bg: #fdf1d8;
+  --color-tier-low: #b3261e;
+  --color-tier-low-bg: #fbe4e2;
+
+  --color-ink: #1b2330;
+  --color-muted: #5b6573;
+  --color-surface: #ffffff;
+  --color-canvas: #f5f6f8;
+  --color-line: #dde1e6;
+  --color-brand: #1d4e89;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-canvas text-ink antialiased;
+}
+
+/* Visible focus ring for keyboard users (Section 13.3) */
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
