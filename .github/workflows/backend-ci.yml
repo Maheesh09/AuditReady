@@ -3,8 +3,8 @@ name: Backend CI
 # No path filters on purpose: this is a required status check, and a filtered-out
 # required check never reports, which would block frontend-only PRs forever.
 on:
-  pull_request:
   push:
+  pull_request:
     branches: [main]
 
 permissions:
