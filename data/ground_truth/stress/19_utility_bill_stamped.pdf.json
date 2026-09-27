@@ -1,0 +1,18 @@
+{
+  "document": "stress/19_utility_bill_stamped.pdf",
+  "doc_type": "utility_bill",
+  "factory": "st19",
+  "sensitivity": "standard",
+  "quality": "stamped",
+  "fields": {
+    "utility_kind": "electricity",
+    "billing_period": "2026-09",
+    "consumption_value": 132829,
+    "consumption_unit": "kWh",
+    "account_holder": "Ceylon Stitchcraft (Pvt) Ltd"
+  },
+  "planted_issues": [
+    "scribble drawn over field 'consumption_value'"
+  ],
+  "checked_by": null
+}

@@ -1,0 +1,16 @@
+{
+  "document": "stress/17_utility_bill_scanned.pdf",
+  "doc_type": "utility_bill",
+  "factory": "st17",
+  "sensitivity": "standard",
+  "quality": "scanned",
+  "fields": {
+    "utility_kind": "electricity",
+    "billing_period": "2026-04",
+    "consumption_value": 147272,
+    "consumption_unit": "kWh",
+    "account_holder": "Horizon Knitwear Lanka (Pvt) Ltd"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}

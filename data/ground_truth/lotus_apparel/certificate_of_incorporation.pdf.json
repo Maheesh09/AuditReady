@@ -1,0 +1,14 @@
+{
+  "document": "lotus_apparel/certificate_of_incorporation.pdf",
+  "doc_type": "business_registration",
+  "factory": "la",
+  "sensitivity": "standard",
+  "quality": "clean",
+  "fields": {
+    "registration_number": "PV 00214573",
+    "company_name": "Lotus Apparel (Pvt) Ltd",
+    "registration_date": "2012-03-23"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}

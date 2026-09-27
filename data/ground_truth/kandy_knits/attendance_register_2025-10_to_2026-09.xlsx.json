@@ -1,0 +1,71 @@
+{
+  "document": "kandy_knits/attendance_register_2025-10_to_2026-09.xlsx",
+  "doc_type": "attendance_register",
+  "factory": "kk",
+  "sensitivity": "sensitive",
+  "quality": "spreadsheet",
+  "series": [
+    {
+      "period": "2025-10",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.1
+    },
+    {
+      "period": "2025-11",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.7
+    },
+    {
+      "period": "2025-12",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.6
+    },
+    {
+      "period": "2026-01",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.5
+    },
+    {
+      "period": "2026-02",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.3
+    },
+    {
+      "period": "2026-03",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.6
+    },
+    {
+      "period": "2026-04",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.6
+    },
+    {
+      "period": "2026-05",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.9
+    },
+    {
+      "period": "2026-06",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.6
+    },
+    {
+      "period": "2026-07",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.4
+    },
+    {
+      "period": "2026-08",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.3
+    },
+    {
+      "period": "2026-09",
+      "max_weekly_hours": 57.5,
+      "average_weekly_hours": 50.8
+    }
+  ],
+  "planted_issues": [],
+  "checked_by": null
+}

@@ -1,0 +1,595 @@
+{
+  "demo_date": "2026-10-18",
+  "months": [
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "documents": [
+    {
+      "path": "lotus_apparel/fire_certificate_2026_photo.jpg",
+      "doc_type": "fire_safety_certificate",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "photo",
+      "demo_upload_order": 1,
+      "planted_issues": [
+        "Blurry, tilted phone photo: expiry date should read at low confidence and go to review"
+      ]
+    },
+    {
+      "path": "lotus_apparel/boiler_inspection_certificate_scan.pdf",
+      "doc_type": "boiler_inspection_certificate",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "scanned",
+      "demo_upload_order": 2,
+      "planted_issues": [
+        "Expires 2026-11-10, 23 days after demo day: R04 expiring soon"
+      ]
+    },
+    {
+      "path": "lotus_apparel/iso_14001_certificate.pdf",
+      "doc_type": "iso_certificate",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": 3,
+      "planted_issues": [
+        "Expiry date (2024-06-14) is before issue date: R01 must fail, Low tier"
+      ]
+    },
+    {
+      "path": "lotus_apparel/certificate_of_incorporation.pdf",
+      "doc_type": "business_registration",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/payroll_register_2025-10_to_2026-09.xlsx",
+      "doc_type": "payroll_summary",
+      "factory": "la",
+      "sensitivity": "sensitive",
+      "quality": "spreadsheet",
+      "demo_upload_order": 4,
+      "planted_issues": [
+        "March 2026 payroll register missing: R08 warning and missing-month gap"
+      ]
+    },
+    {
+      "path": "lotus_apparel/attendance_register_2025-10_to_2026-09.xlsx",
+      "doc_type": "attendance_register",
+      "factory": "la",
+      "sensitivity": "sensitive",
+      "quality": "spreadsheet",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2025-10.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2025-10.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2025-11.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2025-11.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2025-12.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2025-12.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2026-01.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2026-01.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2026-02.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2026-02.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2026-03.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2026-03.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2026-04.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2026-04.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2026-05.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2026-05.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2026-06.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2026-06.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2026-07.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2026-07.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2026-08.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2026-08.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/electricity_bill_2026-09.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": 5,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/water_bill_2026-09.pdf",
+      "doc_type": "utility_bill",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": 6,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/ohs_manual_rev04.pdf",
+      "doc_type": "policy_or_audit_report",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": 7,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/wastewater_management_procedure.pdf",
+      "doc_type": "policy_or_audit_report",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/social_compliance_policy_child_forced_labour.pdf",
+      "doc_type": "policy_or_audit_report",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "lotus_apparel/social_audit_report_may2026_scan.pdf",
+      "doc_type": "policy_or_audit_report",
+      "factory": "la",
+      "sensitivity": "standard",
+      "quality": "scanned",
+      "demo_upload_order": 8,
+      "planted_issues": []
+    },
+    {
+      "path": "kandy_knits/fire_certificate.pdf",
+      "doc_type": "fire_safety_certificate",
+      "factory": "kk",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "kandy_knits/boiler_certificate.pdf",
+      "doc_type": "boiler_inspection_certificate",
+      "factory": "kk",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "kandy_knits/iso_14001_certificate.pdf",
+      "doc_type": "iso_certificate",
+      "factory": "kk",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "kandy_knits/certificate_of_incorporation.pdf",
+      "doc_type": "business_registration",
+      "factory": "kk",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "kandy_knits/payroll_register_2025-10_to_2026-09.xlsx",
+      "doc_type": "payroll_summary",
+      "factory": "kk",
+      "sensitivity": "sensitive",
+      "quality": "spreadsheet",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "kandy_knits/attendance_register_2025-10_to_2026-09.xlsx",
+      "doc_type": "attendance_register",
+      "factory": "kk",
+      "sensitivity": "sensitive",
+      "quality": "spreadsheet",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "kandy_knits/electricity_bill_2026-09.pdf",
+      "doc_type": "utility_bill",
+      "factory": "kk",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "kandy_knits/ohs_manual.pdf",
+      "doc_type": "policy_or_audit_report",
+      "factory": "kk",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/00_fire_safety_certificate_clean.pdf",
+      "doc_type": "fire_safety_certificate",
+      "factory": "st00",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/01_fire_safety_certificate_scanned.pdf",
+      "doc_type": "fire_safety_certificate",
+      "factory": "st01",
+      "sensitivity": "standard",
+      "quality": "scanned",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/02_fire_safety_certificate_photo.jpg",
+      "doc_type": "fire_safety_certificate",
+      "factory": "st02",
+      "sensitivity": "standard",
+      "quality": "photo",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/03_fire_safety_certificate_stamped.pdf",
+      "doc_type": "fire_safety_certificate",
+      "factory": "st03",
+      "sensitivity": "standard",
+      "quality": "stamped",
+      "demo_upload_order": null,
+      "planted_issues": [
+        "stamp drawn over field 'expiry_date'"
+      ]
+    },
+    {
+      "path": "stress/04_boiler_inspection_certificate_clean.pdf",
+      "doc_type": "boiler_inspection_certificate",
+      "factory": "st04",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/05_boiler_inspection_certificate_scanned.pdf",
+      "doc_type": "boiler_inspection_certificate",
+      "factory": "st05",
+      "sensitivity": "standard",
+      "quality": "scanned",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/06_boiler_inspection_certificate_photo.jpg",
+      "doc_type": "boiler_inspection_certificate",
+      "factory": "st06",
+      "sensitivity": "standard",
+      "quality": "photo",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/07_boiler_inspection_certificate_stamped.pdf",
+      "doc_type": "boiler_inspection_certificate",
+      "factory": "st07",
+      "sensitivity": "standard",
+      "quality": "stamped",
+      "demo_upload_order": null,
+      "planted_issues": [
+        "scribble drawn over field 'certificate_number'"
+      ]
+    },
+    {
+      "path": "stress/08_iso_certificate_clean.pdf",
+      "doc_type": "iso_certificate",
+      "factory": "st08",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/09_iso_certificate_scanned.pdf",
+      "doc_type": "iso_certificate",
+      "factory": "st09",
+      "sensitivity": "standard",
+      "quality": "scanned",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/10_iso_certificate_photo.jpg",
+      "doc_type": "iso_certificate",
+      "factory": "st10",
+      "sensitivity": "standard",
+      "quality": "photo",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/11_iso_certificate_stamped.pdf",
+      "doc_type": "iso_certificate",
+      "factory": "st11",
+      "sensitivity": "standard",
+      "quality": "stamped",
+      "demo_upload_order": null,
+      "planted_issues": [
+        "scribble drawn over field 'issue_date'"
+      ]
+    },
+    {
+      "path": "stress/12_business_registration_clean.pdf",
+      "doc_type": "business_registration",
+      "factory": "st12",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/13_business_registration_scanned.pdf",
+      "doc_type": "business_registration",
+      "factory": "st13",
+      "sensitivity": "standard",
+      "quality": "scanned",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/14_business_registration_photo.jpg",
+      "doc_type": "business_registration",
+      "factory": "st14",
+      "sensitivity": "standard",
+      "quality": "photo",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/15_business_registration_stamped.pdf",
+      "doc_type": "business_registration",
+      "factory": "st15",
+      "sensitivity": "standard",
+      "quality": "stamped",
+      "demo_upload_order": null,
+      "planted_issues": [
+        "scribble drawn over field 'registration_date'"
+      ]
+    },
+    {
+      "path": "stress/16_utility_bill_clean.pdf",
+      "doc_type": "utility_bill",
+      "factory": "st16",
+      "sensitivity": "standard",
+      "quality": "clean",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/17_utility_bill_scanned.pdf",
+      "doc_type": "utility_bill",
+      "factory": "st17",
+      "sensitivity": "standard",
+      "quality": "scanned",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/18_utility_bill_photo.jpg",
+      "doc_type": "utility_bill",
+      "factory": "st18",
+      "sensitivity": "standard",
+      "quality": "photo",
+      "demo_upload_order": null,
+      "planted_issues": []
+    },
+    {
+      "path": "stress/19_utility_bill_stamped.pdf",
+      "doc_type": "utility_bill",
+      "factory": "st19",
+      "sensitivity": "standard",
+      "quality": "stamped",
+      "demo_upload_order": null,
+      "planted_issues": [
+        "scribble drawn over field 'consumption_value'"
+      ]
+    }
+  ]
+}

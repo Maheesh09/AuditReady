@@ -1,0 +1,15 @@
+{
+  "document": "stress/06_boiler_inspection_certificate_photo.jpg",
+  "doc_type": "boiler_inspection_certificate",
+  "factory": "st06",
+  "sensitivity": "standard",
+  "quality": "photo",
+  "fields": {
+    "certificate_number": "BIC/2026/0968",
+    "issue_date": "2026-02-18",
+    "expiry_date": "2027-02-17",
+    "equipment_id": "BLR-70-04"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}

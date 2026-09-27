@@ -1,0 +1,17 @@
+{
+  "document": "lotus_apparel/wastewater_management_procedure.pdf",
+  "doc_type": "policy_or_audit_report",
+  "factory": "la",
+  "sensitivity": "standard",
+  "quality": "clean",
+  "narrative_facts": [
+    "No dyeing, printing or washing on site; wastewater is sanitary, canteen and floor cleaning",
+    "Average wastewater generation about 85 m3 per day",
+    "Treated in on-site extended aeration STP with 120 m3 per day capacity",
+    "Stages: bar screen, equalisation, aeration, secondary clarifier, chlorination, sludge drying beds",
+    "Treated effluent discharged to the zone central wastewater treatment plant",
+    "Effluent tested monthly by an accredited external laboratory for pH, BOD5, COD, TSS, oil and grease"
+  ],
+  "planted_issues": [],
+  "checked_by": null
+}

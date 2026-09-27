@@ -1,0 +1,16 @@
+{
+  "document": "stress/18_utility_bill_photo.jpg",
+  "doc_type": "utility_bill",
+  "factory": "st18",
+  "sensitivity": "standard",
+  "quality": "photo",
+  "fields": {
+    "utility_kind": "electricity",
+    "billing_period": "2026-01",
+    "consumption_value": 222881,
+    "consumption_unit": "kWh",
+    "account_holder": "Blue Lagoon Apparel (Pvt) Ltd"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}

@@ -1,0 +1,7 @@
+# Inherit the backend lint rules, with two deliberate exceptions for data-generation scripts:
+#   S311  seeded `random` is intentional here: test data must be reproducible, not secret.
+#   E501  inline HTML/SVG templates read better unwrapped.
+extend = "../backend/pyproject.toml"
+
+[lint]
+extend-ignore = ["S311", "E501"]

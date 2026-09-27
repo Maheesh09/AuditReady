@@ -1,0 +1,16 @@
+{
+  "document": "stress/15_business_registration_stamped.pdf",
+  "doc_type": "business_registration",
+  "factory": "st15",
+  "sensitivity": "standard",
+  "quality": "stamped",
+  "fields": {
+    "registration_number": "PV 15466733",
+    "company_name": "Mahaweli Fashion Works (Pvt) Ltd",
+    "registration_date": "2010-07-07"
+  },
+  "planted_issues": [
+    "scribble drawn over field 'registration_date'"
+  ],
+  "checked_by": null
+}

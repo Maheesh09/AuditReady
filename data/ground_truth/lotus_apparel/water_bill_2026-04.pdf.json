@@ -1,0 +1,16 @@
+{
+  "document": "lotus_apparel/water_bill_2026-04.pdf",
+  "doc_type": "utility_bill",
+  "factory": "la",
+  "sensitivity": "standard",
+  "quality": "clean",
+  "fields": {
+    "utility_kind": "water",
+    "billing_period": "2026-04",
+    "consumption_value": 2908,
+    "consumption_unit": "m3",
+    "account_holder": "Lotus Apparel (Pvt) Ltd"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}

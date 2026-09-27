@@ -1,0 +1,18 @@
+{
+  "document": "stress/11_iso_certificate_stamped.pdf",
+  "doc_type": "iso_certificate",
+  "factory": "st11",
+  "sensitivity": "standard",
+  "quality": "stamped",
+  "fields": {
+    "standard_name": "ISO 14001:2015",
+    "certificate_number": "LAS-EMS-14001-2745",
+    "certification_body": "Lankacert Assurance Services (Pvt) Ltd",
+    "issue_date": "2026-02-16",
+    "expiry_date": "2029-02-15"
+  },
+  "planted_issues": [
+    "scribble drawn over field 'issue_date'"
+  ],
+  "checked_by": null
+}

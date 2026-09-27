@@ -1,0 +1,18 @@
+{
+  "document": "lotus_apparel/fire_certificate_2026_photo.jpg",
+  "doc_type": "fire_safety_certificate",
+  "factory": "la",
+  "sensitivity": "standard",
+  "quality": "photo",
+  "fields": {
+    "certificate_number": "FS-29183",
+    "issuing_authority": "Metropolitan Fire & Rescue Service",
+    "issue_date": "2026-01-11",
+    "expiry_date": "2027-01-10",
+    "premises_name": "Lotus Apparel (Pvt) Ltd"
+  },
+  "planted_issues": [
+    "Blurry, tilted phone photo: expiry date should read at low confidence and go to review"
+  ],
+  "checked_by": null
+}

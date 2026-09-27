@@ -1,0 +1,15 @@
+{
+  "document": "kandy_knits/boiler_certificate.pdf",
+  "doc_type": "boiler_inspection_certificate",
+  "factory": "kk",
+  "sensitivity": "standard",
+  "quality": "clean",
+  "fields": {
+    "certificate_number": "BIC/2026/0088",
+    "issue_date": "2026-02-20",
+    "expiry_date": "2027-02-19",
+    "equipment_id": "BLR-KK-01"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}
