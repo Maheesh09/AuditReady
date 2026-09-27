@@ -1,0 +1,16 @@
+{
+  "document": "stress/01_fire_safety_certificate_scanned.pdf",
+  "doc_type": "fire_safety_certificate",
+  "factory": "st01",
+  "sensitivity": "standard",
+  "quality": "scanned",
+  "fields": {
+    "certificate_number": "FS-34113",
+    "issuing_authority": "Metropolitan Fire & Rescue Service",
+    "issue_date": "2026-05-06",
+    "expiry_date": "2027-05-05",
+    "premises_name": "Palmyra Garments (Pvt) Ltd"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}

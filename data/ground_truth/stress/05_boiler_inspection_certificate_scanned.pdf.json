@@ -1,0 +1,15 @@
+{
+  "document": "stress/05_boiler_inspection_certificate_scanned.pdf",
+  "doc_type": "boiler_inspection_certificate",
+  "factory": "st05",
+  "sensitivity": "standard",
+  "quality": "scanned",
+  "fields": {
+    "certificate_number": "BIC/2026/0904",
+    "issue_date": "2026-01-21",
+    "expiry_date": "2027-01-20",
+    "equipment_id": "BLR-88-02"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}

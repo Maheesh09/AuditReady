@@ -1,0 +1,20 @@
+{
+  "document": "kandy_knits/ohs_manual.pdf",
+  "doc_type": "policy_or_audit_report",
+  "factory": "kk",
+  "sensitivity": "standard",
+  "quality": "clean",
+  "narrative_facts": [
+    "Alarm raised via manual call point and security control room extension 100",
+    "One trained floor warden per 25 workers",
+    "Assembly Point A (main car park) for Building A, Assembly Point B (staff sports ground) for Building B",
+    "Target full evacuation within three minutes",
+    "Fire drills conducted quarterly, at least one unannounced per year, alternating day and night shifts",
+    "Most recent drill on 2026-07-22 evacuated 141 persons in 2 min 48 s",
+    "Health and Safety Committee has 12 members: 6 elected worker representatives and 6 management",
+    "Committee chaired by the Factory Manager and meets monthly on the first Wednesday",
+    "Committee minutes posted on notice boards in English, Sinhala and Tamil within five working days"
+  ],
+  "planted_issues": [],
+  "checked_by": null
+}

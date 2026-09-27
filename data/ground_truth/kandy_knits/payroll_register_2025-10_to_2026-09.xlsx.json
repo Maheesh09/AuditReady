@@ -1,0 +1,107 @@
+{
+  "document": "kandy_knits/payroll_register_2025-10_to_2026-09.xlsx",
+  "doc_type": "payroll_summary",
+  "factory": "kk",
+  "sensitivity": "sensitive",
+  "quality": "spreadsheet",
+  "series": [
+    {
+      "period": "2025-10",
+      "worker_count": 127,
+      "total_gross_wages": 4701497.79,
+      "lowest_basic_wage": 29500,
+      "overtime_hours_total": 2019.9,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2025-11",
+      "worker_count": 131,
+      "total_gross_wages": 4853006.19,
+      "lowest_basic_wage": 29500,
+      "overtime_hours_total": 2116.8,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2025-12",
+      "worker_count": 133,
+      "total_gross_wages": 4927171.65,
+      "lowest_basic_wage": 29500,
+      "overtime_hours_total": 2164.9,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2026-01",
+      "worker_count": 134,
+      "total_gross_wages": 5311665.98,
+      "lowest_basic_wage": 31500,
+      "overtime_hours_total": 2412.2,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2026-02",
+      "worker_count": 134,
+      "total_gross_wages": 5370165.03,
+      "lowest_basic_wage": 31500,
+      "overtime_hours_total": 2563.7,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2026-03",
+      "worker_count": 136,
+      "total_gross_wages": 5443150.28,
+      "lowest_basic_wage": 31500,
+      "overtime_hours_total": 2637.7,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2026-04",
+      "worker_count": 139,
+      "total_gross_wages": 5516382.63,
+      "lowest_basic_wage": 31500,
+      "overtime_hours_total": 2477.8,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2026-05",
+      "worker_count": 138,
+      "total_gross_wages": 5459998.01,
+      "lowest_basic_wage": 31500,
+      "overtime_hours_total": 2354.0,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2026-06",
+      "worker_count": 139,
+      "total_gross_wages": 5457779.62,
+      "lowest_basic_wage": 31500,
+      "overtime_hours_total": 2206.1,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2026-07",
+      "worker_count": 143,
+      "total_gross_wages": 5673367.13,
+      "lowest_basic_wage": 31500,
+      "overtime_hours_total": 2571.9,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2026-08",
+      "worker_count": 143,
+      "total_gross_wages": 5692807.38,
+      "lowest_basic_wage": 31500,
+      "overtime_hours_total": 2618.2,
+      "overtime_paid_flag": true
+    },
+    {
+      "period": "2026-09",
+      "worker_count": 144,
+      "total_gross_wages": 5658985.05,
+      "lowest_basic_wage": 31500,
+      "overtime_hours_total": 2367.8,
+      "overtime_paid_flag": true
+    }
+  ],
+  "planted_issues": [],
+  "checked_by": null
+}

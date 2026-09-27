@@ -1,0 +1,17 @@
+{
+  "document": "lotus_apparel/boiler_inspection_certificate_scan.pdf",
+  "doc_type": "boiler_inspection_certificate",
+  "factory": "la",
+  "sensitivity": "standard",
+  "quality": "scanned",
+  "fields": {
+    "certificate_number": "BIC/2025/0417",
+    "issue_date": "2025-11-11",
+    "expiry_date": "2026-11-10",
+    "equipment_id": "BLR-LA-02"
+  },
+  "planted_issues": [
+    "Expires 2026-11-10, 23 days after demo day: R04 expiring soon"
+  ],
+  "checked_by": null
+}

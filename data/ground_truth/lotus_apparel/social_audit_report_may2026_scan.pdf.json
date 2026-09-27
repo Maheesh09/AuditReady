@@ -1,0 +1,17 @@
+{
+  "document": "lotus_apparel/social_audit_report_may2026_scan.pdf",
+  "doc_type": "policy_or_audit_report",
+  "factory": "la",
+  "sensitivity": "standard",
+  "quality": "scanned",
+  "narrative_facts": [
+    "Last third-party social audit held 2026-05-19 to 2026-05-20 by Veritrust Social Audits",
+    "Outcome: no critical, no major, four minor non-conformities and one observation",
+    "Rating: Approved - minor improvements required",
+    "NC-01 and NC-02 closed",
+    "Open: NC-03 overtime consent forms (due 2026-11-30) and NC-04 chemical store secondary containment (due 2026-10-31)",
+    "Observation OB-01 (faded aisle markings) open"
+  ],
+  "planted_issues": [],
+  "checked_by": null
+}

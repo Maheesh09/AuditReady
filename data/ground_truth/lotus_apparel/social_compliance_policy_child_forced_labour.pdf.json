@@ -1,0 +1,18 @@
+{
+  "document": "lotus_apparel/social_compliance_policy_child_forced_labour.pdf",
+  "doc_type": "policy_or_audit_report",
+  "factory": "la",
+  "sensitivity": "standard",
+  "quality": "clean",
+  "narrative_facts": [
+    "Minimum age for employment is 18 years, including apprentices and agency workers",
+    "Age verified with original NIC plus birth certificate; doubtful cases confirmed with Divisional Secretariat",
+    "Original NIC returned the same day; only a photocopy is kept",
+    "Quarterly internal audit of 10% of new personnel files",
+    "Remediation: removal, full wages, support for education with monthly stipend",
+    "No retention of original documents, no recruitment fees, freedom to resign with contractual notice",
+    "Free access to toilets and water, gates not locked, overtime voluntary with monthly signed consent"
+  ],
+  "planted_issues": [],
+  "checked_by": null
+}

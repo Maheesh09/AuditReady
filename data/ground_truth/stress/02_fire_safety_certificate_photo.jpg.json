@@ -1,0 +1,16 @@
+{
+  "document": "stress/02_fire_safety_certificate_photo.jpg",
+  "doc_type": "fire_safety_certificate",
+  "factory": "st02",
+  "sensitivity": "standard",
+  "quality": "photo",
+  "fields": {
+    "certificate_number": "FS-24862",
+    "issuing_authority": "Metropolitan Fire & Rescue Service",
+    "issue_date": "2026-03-04",
+    "expiry_date": "2027-03-03",
+    "premises_name": "Mahaweli Fashion Works (Pvt) Ltd"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}

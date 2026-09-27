@@ -1,0 +1,14 @@
+{
+  "document": "kandy_knits/certificate_of_incorporation.pdf",
+  "doc_type": "business_registration",
+  "factory": "kk",
+  "sensitivity": "standard",
+  "quality": "clean",
+  "fields": {
+    "registration_number": "PV 00301188",
+    "company_name": "Kandy Knits (Pvt) Ltd",
+    "registration_date": "2016-08-09"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}

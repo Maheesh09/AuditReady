@@ -1,0 +1,17 @@
+{
+  "document": "stress/07_boiler_inspection_certificate_stamped.pdf",
+  "doc_type": "boiler_inspection_certificate",
+  "factory": "st07",
+  "sensitivity": "standard",
+  "quality": "stamped",
+  "fields": {
+    "certificate_number": "BIC/2026/0522",
+    "issue_date": "2026-04-01",
+    "expiry_date": "2027-03-31",
+    "equipment_id": "BLR-96-03"
+  },
+  "planted_issues": [
+    "scribble drawn over field 'certificate_number'"
+  ],
+  "checked_by": null
+}

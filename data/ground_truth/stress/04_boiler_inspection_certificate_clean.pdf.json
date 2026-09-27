@@ -1,0 +1,15 @@
+{
+  "document": "stress/04_boiler_inspection_certificate_clean.pdf",
+  "doc_type": "boiler_inspection_certificate",
+  "factory": "st04",
+  "sensitivity": "standard",
+  "quality": "clean",
+  "fields": {
+    "certificate_number": "BIC/2026/0338",
+    "issue_date": "2026-01-31",
+    "expiry_date": "2027-01-30",
+    "equipment_id": "BLR-98-02"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}

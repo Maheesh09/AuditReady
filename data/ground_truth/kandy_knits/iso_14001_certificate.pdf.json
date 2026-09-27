@@ -1,0 +1,16 @@
+{
+  "document": "kandy_knits/iso_14001_certificate.pdf",
+  "doc_type": "iso_certificate",
+  "factory": "kk",
+  "sensitivity": "standard",
+  "quality": "clean",
+  "fields": {
+    "standard_name": "ISO 14001:2015",
+    "certificate_number": "LAS-EMS-14001-2610",
+    "certification_body": "Lankacert Assurance Services (Pvt) Ltd",
+    "issue_date": "2025-11-03",
+    "expiry_date": "2028-11-02"
+  },
+  "planted_issues": [],
+  "checked_by": null
+}
